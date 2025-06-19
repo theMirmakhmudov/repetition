@@ -6,7 +6,7 @@ import asyncio
 from middleware import SubscriptionMiddleware
 from keyboards import check
 
-bot = Bot(token="7935939001:AAEAFZFDfnIlfiZ52B86hveDXowy0SdYV6k",
+bot = Bot(token="Your bot token",
           default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher()
 
